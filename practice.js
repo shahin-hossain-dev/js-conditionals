@@ -15,7 +15,7 @@ else {
 
 // Grading System Count
 
-const mark = 101;
+const mark = 30;
 
 if (mark >= 80) {
     if (mark > 100) {
@@ -25,20 +25,20 @@ if (mark >= 80) {
         console.log('A+')
     }
 }
-if (mark >= 70 && mark < 80) {
+else if (mark >= 70) {
     console.log('A')
 }
-if (mark >= 60 && mark < 70) {
+else if (mark >= 60) {
     console.log('A-');
 }
-if (mark >= 50 && mark < 60) {
+else if (mark >= 50) {
     console.log('B');
 }
-if (mark >= 40 && mark < 50) {
+else if (mark >= 40) {
     console.log('B-')
 }
 else {
-    if (mark < 40) {
-        console.log('Failed')
-    }
+
+    console.log('Failed')
+
 }
