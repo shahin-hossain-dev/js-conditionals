@@ -3,8 +3,9 @@
  *    SWITCH STATEMENT
  * *********************
  * if..else এর মধ্যে condition লিখা হয়
- * কিন্তু switch এর মধ্যে expression লিখা হয়। switch হলো if..else এর updated version
- * switch এ একটি case true না হলে আরেকটি case এর কাছে যাবে। অতপর case true হলে print করবে িএবং break করে দিতে হবে।
+ * কিন্তু switch এর মধ্যে expression লিখা হয়। expression হলো variable এর মধ্যে যে value টা সেট করা হয়। switch parentheses এর মধ্যে variable/value ২টাই দেয়া যায়।
+ * switch হলো if..else এর updated version
+ * switch এ একটি case true না হলে আরেকটি case এর কাছে যাবে। অতপর case true হলে print করবে এবং break করে দিতে হবে।
  */
 
 // 
@@ -120,4 +121,4 @@ function getSeason(month) {
     }
 }
 
-getSeason(8)
+getSeason(10)
